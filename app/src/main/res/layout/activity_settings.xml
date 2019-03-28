@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative"
+        android:gravity="center_horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/settings_image"
+            android:src="@drawable/default_avatar"
+            android:layout_marginTop="30dp"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative"
+        android:id="@+id/relative2"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/settings_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Display Name"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/settings_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/settings_display_name"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:text="Hey there, I'm using PrivéChat!"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative2"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/settings_change_image"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#fff"
+            android:text="Change Image"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/settings_change_status"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/settings_change_image"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorAccent"
+            android:text="Change Status"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "143590450084",
+    "firebase_url": "https://privchat-59302.firebaseio.com",
+    "project_id": "privchat-59302",
+    "storage_bucket": "privchat-59302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143590450084:android:bdb8010caa4331c5",
+        "android_client_info": {
+          "package_name": "com.example.abc.privchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143590450084-a41ush8av7nc4lsnt38v82572spflfjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abc.privchat",
+            "certificate_hash": "8e474164f54b7ab7ae15f780012fc8c4d79c93fa"
+          }
+        },
+        {
+          "client_id": "143590450084-fptardoa5rku3055o22tcbqkgrtfciop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDWGlzJpnEGJ3vynMt4slp9SwMqbtUBBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143590450084-fptardoa5rku3055o22tcbqkgrtfciop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
